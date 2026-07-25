@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions | Mawuko School Complex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h2>Mawuko School Complex</h2>
+        <p>Primary & JHS</p>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="admission-section">
+    <h1>Admissions at Mawuko School Complex</h1>
+    <p>Please complete the form below to apply for admission.</p>
+
+    <div class="admission-note">
+
+    <h3>Admission Information</h3>
+
+    <p>
+        Parents and guardians are welcome to apply for admission.
+        Please provide accurate information to help us process
+        your application.
+    </p>
+
+</div>
+    <form id="admissionForm">
+
+    <label>Student Full Name</label>
+    <input type="text" id="studentName" required>
+
+    <label>Date of Birth</label>
+    <input type="date" id="dateOfBirth" required>
+
+    <label>Gender</label>
+    <select id="gender" required>
+        <option value="">Select Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+    </select>
+
+    <label>Class Applying For</label>
+    <select id="classApplying" required>
+        <option value="">Select Class</option>
+        <option>KG</option>
+        <option>Primary 1</option>
+        <option>Primary 2</option>
+        <option>Primary 3</option>
+        <option>Primary 4</option>
+        <option>Primary 5</option>
+        <option>Primary 6</option>
+        <option>JHS 1</option>
+        <option>JHS 2</option>
+        <option>JHS 3</option>
+    </select>
+
+    <label>Parent/Guardian Name</label>
+    <input type="text" id="parentName" required>
+
+    <label>Phone Number</label>
+    <input type="tel" id="phone" required>
+
+    <label>Email Address</label>
+    <input type="email" id="email">
+
+    <label>Home Address</label>
+    <textarea id="address"></textarea>
+
+    <button type="submit" id="submitBtn">
+        Submit Enrollment Application
+    </button>
+
+</form>
+
+    </form>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
