@@ -245,23 +245,7 @@ footer{
     color:#0f8a5f;
     font-weight:bold;
 }
-.about{
-    padding:60px 10%;
-    text-align:center;
-}
 
-.about h2{
-    color:#0f8a5f;
-    font-size:35px;
-    margin-bottom:20px;
-}
-
-.about p{
-    font-size:18px;
-    line-height:1.7;
-    max-width:800px;
-    margin:auto;
-}
 .gallery{
     padding:60px 8%;
     text-align:center;
@@ -826,103 +810,7 @@ border-radius: 8px;
 .apply-btn:hover {
     background: white;
 }
-.facilities {
-    padding: 60px 20px;
-    text-align: center;
-    background: #f7fff9;
-}
 
-.facilities h2 {
-    color: #0b7a3e;
-    font-size: 2.2rem;
-    margin-bottom: 15px;
-}
-
-.facilities p {
-    max-width: 800px;
-    margin: auto;
-    line-height: 1.7;
-}
-
-
-.facilities-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
-    margin-top: 40px;
-}
-
-
-.facility-card {
-    background: #ffe6f2;
-    padding: 25px;
-    border-radius: 15px;
-    transition: 0.3s;
-}
-
-
-.facility-card:hover {
-    transform: translateY(-8px);
-}
-@media (max-width: 768px) {
-
-    /* Navigation */
-    nav {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-        padding: 0;
-    }
-
-
-    /* Hero Slider */
-    .hero-slider {
-        height: 300px;
-    }
-
-    .slides img {
-        height: 300px;
-    }
-
-    .hero-text h1 {
-        font-size: 1.8rem;
-    }
-
-    .hero-text p {
-        font-size: 1rem;
-    }
-
-
-    /* Sections */
-    section {
-        padding: 40px 15px;
-    }
-
-
-    /* Cards */
-    .facilities-grid,
-    .houses-grid,
-    .gallery-grid {
-        grid-template-columns: 1fr;
-    }
-
-
-    .facility-card,
-    .house-card,
-    .gallery-item {
-        width: 100%;
-    }
-
-
-    /* Contact Section */
-    .contact-section {
-        flex-direction: column;
-        align-items: center;
-    }
 
 
     /* Footer */
@@ -930,4 +818,648 @@ border-radius: 8px;
         text-align: center;
     }
 
+}
+[9/4/2026 10:54 PM] Daniel Socrates: <h2>Fees & Requirements</h2>
+
+<p>
+    The following fees and requirements apply to learners at
+    Mawuko School Complex.
+</p>
+
+
+<!-- FEES TABLE -->
+
+<h3>School Fees & Uniform</h3>
+
+<div class="fees-table-wrapper">
+
+    <table class="fees-table">
+
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Pre-School</th>
+                <th>Basic 1–3</th>
+                <th>Basic 4–6</th>
+                <th>JHS</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Admission Fee</td>
+                <td>GH₵100.00</td>
+                <td>GH₵100.00</td>
+                <td>GH₵100.00</td>
+                <td>GH₵100.00</td>
+            </tr>
+
+            <tr>
+                <td>Computer Levy</td>
+                <td>GH₵50.00</td>
+                <td>GH₵50.00</td>
+                <td>GH₵50.00</td>
+                <td>GH₵50.00</td>
+            </tr>
+
+            <tr>
+                <td>School Fees</td>
+                <td>GH₵350.00</td>
+                <td>GH₵400.00</td>
+                <td>GH₵500.00</td>
+                <td>GH₵500.00</td>
+            </tr>
+
+            <tr class="total-row">
+                <td>Fees Total</td>
+                <td>GH₵500.00</td>
+                <td>GH₵550.00</td>
+                <td>GH₵650.00</td>
+                <td>GH₵650.00</td>
+            </tr>
+
+            <tr>
+                <td>Uniform</td>
+                <td>GH₵120.00</td>
+                <td>GH₵140.00</td>
+                <td>GH₵170.00</td>
+                <td>GH₵170.00</td>
+            </tr>
+
+            <tr>
+                <td>P.E. Kit</td>
+                <td>GH₵50.00</td>
+                <td>GH₵60.00</td>
+                <td>GH₵70.00</td>
+                <td>GH₵70.00</td>
+            </tr>
+
+            <tr>
+                <td>School Cloth</td>
+                <td>GH₵120.00</td>
+                <td>GH₵140.00</td>
+                <td>GH₵170.00</td>
+                <td>GH₵170.00</td>
+            </tr>
+
+            <tr class="total-row">
+                <td>Uniform Total</td>
+                <td>GH₵290.00</td>
+                <td>GH₵340.00</td>
+                <td>GH₵410.00</td>
+                <td>GH₵410.00</td>
+            </tr>
+
+            <tr class="total-row">
+                <td>Grand Total</td>
+                <td>GH₵790.00</td>
+                <td>GH₵890.00</td>
+                <td>GH₵1,060.00</td>
+                <td>GH₵1,060.00</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</div>
+
+
+<!-- OTHER REQUIREMENTS -->
+
+<h3>Other Requirements</h3>
+
+<ul>
+
+    <li>2 Sunlight soaps</li>
+
+    <li>2 toilet rolls</li>
+
+    <li>Exercise book (compulsory) – GH₵6.00</li>
+
+    <li>Feeding fee per day: Pre-School – GH₵8.00</li>
+
+    <li>Feeding fee per day: Primary 1–3 – GH₵8.00</li>
+
+    <li>Feeding fee per day: Primary 4–JHS – GH₵10.00</li>
+
+</ul>
+
+
+<div class="note-box">
+
+    <strong>Important Note:</strong>
+
+    The 2 soaps and 2 toilet rolls are to be brought
+    at the beginning of every term.
+
+</div>
+
+
+<!-- BOARDERS -->
+
+<div class="boarders-box">
+
+    <h3>Boarders</h3>
+
+    <p>
+        <strong>Feeding fee:</strong>
+        GH₵25.00 per day, including school feeding.
+    </p>
+
+</div>
+
+
+<!-- BOYS & GIRLS -->
+
+<h3>Boarding Requirements</h3>
+
+<div class="requirements-grid">
+
+
+    <!-- BOYS -->
+
+    <div class="requirement-card">
+
+        <h3>👦 Boys</h3>
+
+        <ul>
+
+            <li>2 brown khaki trousers & shirts check</li>
+
+            <li>2 white shirts and 2 black trousers</li>
+
+            <li>1 ordinary cloth</li>
+
+            <li>3 footwear (1 white and 2 black)</li>
+
+            <li>1 sandal</li>
+
+            <li>1 student mattress & 1 mosquito net</li>
+
+            <li>2 bed sheets (white)</li>
+
+            <li>1 pyjamas</li>
+
+            <li>4 pants & 4 singlets</li>
+
+            <li>4 white socks & 4 handkerchiefs</li>
+
+            <li>2 sets of plates and 1 cup</li>
+
+            <li>A pair of slippers</li>
+
+            <li>2 rubber buckets</li>
+
+            <li>1 yellow gallon</li>
+
+            <li>1 standing broom and brush</li>
+[9/4/2026 10:54 PM] Daniel Socrates: </ul>
+
+    </div>
+
+
+    <!-- GIRLS -->
+
+    <div class="requirement-card">
+
+        <h3>👧 Girls</h3>
+
+        <ul>
+
+            <li>2 straight dress checks</li>
+
+            <li>2 white shirts & 2 black skirts</li>
+
+            <li>1 ordinary cloth</li>
+
+            <li>3 footwear (1 white and 2 black)</li>
+
+            <li>1 sandal</li>
+
+            <li>1 student mattress & 1 mosquito net</li>
+
+            <li>2 bed sheets (white)</li>
+
+            <li>1 night gown</li>
+
+            <li>6 pants and 4 vest</li>
+
+            <li>4 white socks & 4 handkerchiefs</li>
+
+            <li>2 sets of plates and 1 cup</li>
+
+            <li>A pair of slippers</li>
+
+            <li>2 rubber buckets</li>
+
+            <li>1 yellow bucket</li>
+
+            <li>1 standing broom and brush</li>
+
+        </ul>
+
+    </div>
+
+</div>
+/* =========================
+   FEES TABLE
+========================= */
+
+.fees-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+
+.fees-table {
+    width: 100%;
+    min-width: 900px;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: center;
+    background: white;
+}
+
+.fees-table th {
+    background: #0b7a3e;
+    color: white;
+    padding: 16px 20px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.fees-table td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.fees-table th:first-child,
+.fees-table td:first-child {
+    text-align: left;
+    font-weight: bold;
+    min-width: 190px;
+}
+
+.fees-table th:not(:first-child),
+.fees-table td:not(:first-child) {
+    min-width: 165px;
+}
+
+.fees-table tr:nth-child(even) {
+    background: #fff0f7;
+}
+
+.fees-table tr:hover {
+    background: #ffe6f2;
+}
+
+.total-row {
+    font-weight: bold;
+    background: #e8f7ee !important;
+    color: #0b7a3e;
+}
+
+.total-row td {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+[9/4/2026 10:54 PM] Daniel Socrates: <h2>Fees & Requirements</h2>
+
+<p>
+    The following fees and requirements apply to learners at
+    Mawuko School Complex.
+</p>
+
+
+<!-- FEES TABLE -->
+
+<h3>School Fees & Uniform</h3>
+
+<div class="fees-table-wrapper">
+
+    <table class="fees-table">
+
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Pre-School</th>
+                <th>Basic 1–3</th>
+                <th>Basic 4–6</th>
+                <th>JHS</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Admission Fee</td>
+                <td>GH₵100.00</td>
+                <td>GH₵100.00</td>
+                <td>GH₵100.00</td>
+                <td>GH₵100.00</td>
+            </tr>
+
+            <tr>
+                <td>Computer Levy</td>
+                <td>GH₵50.00</td>
+                <td>GH₵50.00</td>
+                <td>GH₵50.00</td>
+                <td>GH₵50.00</td>
+            </tr>
+
+            <tr>
+                <td>School Fees</td>
+                <td>GH₵350.00</td>
+                <td>GH₵400.00</td>
+                <td>GH₵500.00</td>
+                <td>GH₵500.00</td>
+            </tr>
+
+            <tr class="total-row">
+                <td>Fees Total</td>
+                <td>GH₵500.00</td>
+                <td>GH₵550.00</td>
+                <td>GH₵650.00</td>
+                <td>GH₵650.00</td>
+            </tr>
+
+            <tr>
+                <td>Uniform</td>
+                <td>GH₵120.00</td>
+                <td>GH₵140.00</td>
+                <td>GH₵170.00</td>
+                <td>GH₵170.00</td>
+            </tr>
+
+            <tr>
+                <td>P.E. Kit</td>
+                <td>GH₵50.00</td>
+                <td>GH₵60.00</td>
+                <td>GH₵70.00</td>
+                <td>GH₵70.00</td>
+            </tr>
+
+            <tr>
+                <td>School Cloth</td>
+                <td>GH₵120.00</td>
+                <td>GH₵140.00</td>
+                <td>GH₵170.00</td>
+                <td>GH₵170.00</td>
+            </tr>
+
+            <tr class="total-row">
+                <td>Uniform Total</td>
+                <td>GH₵290.00</td>
+                <td>GH₵340.00</td>
+                <td>GH₵410.00</td>
+                <td>GH₵410.00</td>
+            </tr>
+
+            <tr class="total-row">
+                <td>Grand Total</td>
+                <td>GH₵790.00</td>
+                <td>GH₵890.00</td>
+                <td>GH₵1,060.00</td>
+                <td>GH₵1,060.00</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</div>
+
+
+<!-- OTHER REQUIREMENTS -->
+
+<h3>Other Requirements</h3>
+
+<ul>
+
+    <li>2 Sunlight soaps</li>
+
+    <li>2 toilet rolls</li>
+
+    <li>Exercise book (compulsory) – GH₵6.00</li>
+
+    <li>Feeding fee per day: Pre-School – GH₵8.00</li>
+
+    <li>Feeding fee per day: Primary 1–3 – GH₵8.00</li>
+
+    <li>Feeding fee per day: Primary 4–JHS – GH₵10.00</li>
+
+</ul>
+
+
+<div class="note-box">
+
+    <strong>Important Note:</strong>
+
+    The 2 soaps and 2 toilet rolls are to be brought
+    at the beginning of every term.
+
+</div>
+
+
+<!-- BOARDERS -->
+
+<div class="boarders-box">
+
+    <h3>Boarders</h3>
+
+    <p>
+        <strong>Feeding fee:</strong>
+        GH₵25.00 per day, including school feeding.
+    </p>
+
+</div>
+
+
+<!-- BOYS & GIRLS -->
+
+<h3>Boarding Requirements</h3>
+
+<div class="requirements-grid">
+
+
+    <!-- BOYS -->
+
+    <div class="requirement-card">
+
+        <h3>👦 Boys</h3>
+
+        <ul>
+
+            <li>2 brown khaki trousers & shirts check</li>
+
+            <li>2 white shirts and 2 black trousers</li>
+
+            <li>1 ordinary cloth</li>
+
+            <li>3 footwear (1 white and 2 black)</li>
+
+            <li>1 sandal</li>
+
+            <li>1 student mattress & 1 mosquito net</li>
+
+            <li>2 bed sheets (white)</li>
+
+            <li>1 pyjamas</li>
+
+            <li>4 pants & 4 singlets</li>
+
+            <li>4 white socks & 4 handkerchiefs</li>
+
+            <li>2 sets of plates and 1 cup</li>
+
+            <li>A pair of slippers</li>
+
+            <li>2 rubber buckets</li>
+
+            <li>1 yellow gallon</li>
+
+            <li>1 standing broom and brush</li>
+[9/4/2026 10:54 PM] Daniel Socrates: </ul>
+
+    </div>
+
+
+    <!-- GIRLS -->
+
+    <div class="requirement-card">
+
+        <h3>👧 Girls</h3>
+
+        <ul>
+
+            <li>2 straight dress checks</li>
+
+            <li>2 white shirts & 2 black skirts</li>
+
+            <li>1 ordinary cloth</li>
+
+            <li>3 footwear (1 white and 2 black)</li>
+
+            <li>1 sandal</li>
+
+            <li>1 student mattress & 1 mosquito net</li>
+
+            <li>2 bed sheets (white)</li>
+
+            <li>1 night gown</li>
+
+            <li>6 pants and 4 vest</li>
+
+            <li>4 white socks & 4 handkerchiefs</li>
+
+            <li>2 sets of plates and 1 cup</li>
+
+            <li>A pair of slippers</li>
+
+            <li>2 rubber buckets</li>
+
+            <li>1 yellow bucket</li>
+
+            <li>1 standing broom and brush</li>
+
+        </ul>
+
+    </div>
+
+</div>
+/* =========================
+   FEES TABLE
+========================= */
+
+.fees-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+
+.fees-table {
+    width: 100%;
+    min-width: 900px;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: center;
+    background: white;
+}
+
+.fees-table th {
+    background: #0b7a3e;
+    color: white;
+    padding: 16px 20px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.fees-table td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.fees-table th:first-child,
+.fees-table td:first-child {
+    text-align: left;
+    font-weight: bold;
+    min-width: 190px;
+}
+
+.fees-table th:not(:first-child),
+.fees-table td:not(:first-child) {
+    min-width: 165px;
+}
+
+.fees-table tr:nth-child(even) {
+    background: #fff0f7;
+}
+
+.fees-table tr:hover {
+    background: #ffe6f2;
+}
+
+.total-row {
+    font-weight: bold;
+    background: #e8f7ee !important;
+    color: #0b7a3e;
+}
+
+.total-row td {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+ @media (max-width: 700px) {
+.fees-table {
+    min-width: 850px;
+    font-size: 14px;
+}
+
+.fees-table th {
+    padding: 13px 16px;
+    font-size: 14px;
+}
+
+.fees-table td {
+    padding: 13px 16px;
+    font-size: 14px;
+}
+
+.fees-table th:first-child,
+.fees-table td:first-child {
+    min-width: 170px;
+}
+
+.fees-table th:not(:first-child),
+.fees-table td:not(:first-child) {
+    min-width: 150px;
+}
 }
